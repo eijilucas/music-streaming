@@ -1,7 +1,9 @@
 import { HomeIcon } from '../icons/home-icon'
 import { LibraryIcon } from '../icons/library-icon'
 import { LoupeIcon } from '../icons/loupe-icon'
+import { PlaylistIcon } from '../icons/playlist-icon'
 import './header.scss'
+
 
 export function Header() {
     return (
@@ -12,28 +14,28 @@ export function Header() {
                 <div className="content">
                     <HomeIcon/>
                     <div className="label">
-                        <span><a href="">Início</a></span>
+                        <a href="#">Início</a>
                     </div>
                 </div>
 
                 <div className="content">
                     <LoupeIcon/>
                     <div className="label">
-                        <span><a href="">Pesquisar</a></span>
+                        <a href="#">Pesquisar</a>
                     </div>
                 </div>
 
                 <div className="content">
                     <LibraryIcon/>
                     <div className="label">
-                        <span><a href="">Biblioteca</a></span>
+                        <a href="#">Biblioteca</a>
                     </div>
                 </div>
 
                 <div className="content">
-                    <HomeIcon/>
+                    <PlaylistIcon/>
                     <div className="label">
-                        <span><a href="">Playlists</a></span>
+                        <a href="#">Playlists</a>
                     </div>
                 </div>
             </div>

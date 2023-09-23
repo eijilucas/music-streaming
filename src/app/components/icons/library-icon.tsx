@@ -1,17 +1,8 @@
 
 export function LibraryIcon() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
-            aria-describedby="desc" role="img" xmlnsXlink="http://www.w3.org/1999/xlink">
-            <path data-name="layer2"
-                d="M3.7 30.8c-2.7 0-2.1 7 .3 8.2l26 12 32-18" fill="none" stroke="#ffffff"
-                stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
-            <path data-name="layer2" d="M3.7 38.8c-2.7 0-2.1 7 .3 8.2l26 12 32-18"
-                fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
-                stroke-linecap="round"></path>
-            <path data-name="layer1" d="M3.1 22.9L30 7.1a8.6 8.6 0 0 1 7-.6L62 17 30 35S8.2 24.6 4.5 23s-3.2 6.7-.5 8l26 12 32-18"
-                fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
-                stroke-linecap="round"></path>
+        <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20" width='24' height='24'>
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M1 17V2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M5 15V1m8 18v-4" />
         </svg>
     )
 }
