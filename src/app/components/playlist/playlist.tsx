@@ -38,7 +38,37 @@ export function Playlist(){
                             <span>Playlist • Lucas</span>
                         </div>
                     </div>
-                </div>    
+                </div>
+
+                <div className="playlist">
+                    <SecondLogo/>
+                    <div className="description">
+                        <span>Jorge e Mateus</span>
+                        <div className="detail">
+                            <span>Playlist • Lucas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="playlist">
+                    <FirstLogo/>
+                    <div className="description">
+                        <span>Ana Castela</span>
+                        <div className="detail">
+                            <span>Playlist • Lucas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="playlist">
+                    <ThirdLogo/>
+                    <div className="description">
+                        <span>Zé Neto e Cristiano</span>
+                        <div className="detail">
+                            <span>Playlist • Lucas</span>
+                        </div>
+                    </div>
+                </div>   
             </div>
         </section>
     )

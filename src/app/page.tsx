@@ -1,5 +1,7 @@
 import { Header } from "./components/header/header";
-import { Playlist } from "./components/recent/playlist";
+import { Playlist } from "./components/playlist/playlist";
+
+import './styles/home.scss'
 
 export default function Home() {
   return (
