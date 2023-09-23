@@ -1,11 +1,11 @@
 import { Header } from "./components/header/header";
-import { Recents } from "./components/recents/recents";
+import { Playlist } from "./components/recent/playlist";
 
 export default function Home() {
   return (
     <main className='container'>
       <Header/>
-      <Recents/>
+      <Playlist/>
     </main>
   )
 }
